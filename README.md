@@ -1,38 +1,34 @@
 # Killer Sokoban
 Mazsam csapat:
-	* Zs�fi
-	* �kos
-	* �d�m
-	* Mil�n
+	* Zsófi
+	* Ákos
+	* Ádám
+	* Milán
 	* Marci
 
-
 # Git
-## Telep�t�s
+## Telepítés
 https://git-scm.com/download/win
 FONTOS!!! 
-Run Git and included Unix tools from the Windows Command Prompt opci�t v�lassz�tok
+Run Git and included Unix tools from the Windows Command Prompt opciót válasszátok
 
-## Git Bash seg�ts�g:
-* git init <directory> - l�trehoz egy mapp�t, ahol dolgozhattok
-* cd <directory> - �tv�lthatsz erre a mapp�ra
-* git clone <url> - a projekt lekl�noz�sa saj�t magatoknak, ezt kezditek el m�dos�tani, �s majd tolj�tok fel a m�dos�t�sokat
-* ls -l - kilits�zza a mappa tartalm�t, amiben vagy
-* git config --global user.name "Gipsz Jakab" - username be�ll�t�sa
-* git add <filen�v> - �j f�jlt ad hozz� a commitoland� f�jlok k�z� (homokoz� a neve, angolul index)
-* git status - meg tudod n�zni a hozz�adott f�jlokat
-* git commit -a - sz�vegf�jlban megmutatja a commitoland� f�jlokat
-* git commit -m "�zenet" - valamilyen �zenettel commitolja (bet�lti) az index tartalm�t a lok�lis repositoryba
-* git log --oneline --graph --decorate - sz�pen gr�fosan kirajzolja a commitokat
+## Git Bash segítség:
+* git init <directory> - létrehoz egy mappát, ahol dolgozhattok
+* cd <directory> - átválthatsz erre a mappára
+* git clone <url> - a projekt leklónozása saját magatoknak, ezt kezditek el módosítani, és majd toljátok fel a módosításokat
+* ls -l - kilitsázza a mappa tartalmát, amiben vagy
+* git config --global user.name "Gipsz Jakab" - username beállítása
+* git add <filenév> - új fájlt ad hozzá a commitolandó fájlok közé (homokozó a neve, angolul index)
+* git status - meg tudod nézni a hozzáadott fájlokat
+* git commit -a - szövegfájlban megmutatja a commitolandó fájlokat
+* git commit -m "üzenet" - valamilyen üzenettel commitolja (betölti) az index tartalmát a lokális repositoryba
+* git log --oneline --graph --decorate - szépen gráfosan kirajzolja a commitokat
 
-## Az online repository be�ll�t�sa:
-* git clone <url> - EZZEL �RDEMES KEZDENI
-* git remote add origin <url, ami a projekt url-je, ahova pull requestet szeretn�l> 
-* git remote -v - a remoteok st�tusza
+## Az online repository beállítása:
+* git clone <url> - EZZEL ÉRDEMES KEZDENI
+* git remote add origin <url, ami a projekt url-je, ahova pull requestet szeretnél> 
+* git remote -v - a remoteok státusza
 
-## Felt�lt�s az online repositoryba:
-* git pull origin master - a m�sok �ltal v�grehajtott v�ltoztat�sok let�lt�se
-* git push origin master - a mi v�ltoztat�saink �letbe l�ptet�s�nek k�relme
-
-
-
+## Feltöltés az online repositoryba:
+* git pull origin master - a mások által végrehajtott változtatások letöltése
+* git push origin master - a mi változtatásaink életbe léptetésének kérelme
