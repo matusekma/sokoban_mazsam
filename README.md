@@ -1,10 +1,10 @@
 # Killer Sokoban
 Mazsam csapat:
-	* Zsófi
-	* Ákos
-	* Ádám
-	* Milán
-	* Marci
+* Zsófi
+* Ákos
+* Ádám
+* Milán
+* Marci
 
 # Git
 ## Telepítés
