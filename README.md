@@ -1,34 +1,38 @@
 # Killer Sokoban
 Mazsam csapat:
-	* Zsófi
-	* Ákos
-	* Ádám
-	* Milán
+	* Zsï¿½fi
+	* ï¿½kos
+	* ï¿½dï¿½m
+	* Milï¿½n
 	* Marci
 
+
 # Git
-## Telepítés
+## Telepï¿½tï¿½s
 https://git-scm.com/download/win
 FONTOS!!! 
-Run Git and included Unix tools from the Windows Command Prompt opciót válasszátok
+Run Git and included Unix tools from the Windows Command Prompt opciï¿½t vï¿½lasszï¿½tok
 
-## Git Bash segítség:
-* git init <directory> - létrehoz egy mappát, ahol dolgozhattok
-* cd <directory> - átválthatsz erre a mappára
-* git clone <url> - a projekt leklónozása saját magatoknak, ezt kezditek el módosítani, és majd toljátok fel a módosításokat
-* ls -l - kilitsázza a mappa tartalmát, amiben vagy
-* git config --global user.name "Gipsz Jakab" - username beállítása
-* git add <filenév> - új fájlt ad hozzá a commitolandó fájlok közé (homokozó a neve, angolul index)
-* git status - meg tudod nézni a hozzáadott fájlokat
-* git commit -a - szövegfájlban megmutatja a commitolandó fájlokat
-* git commit -m "üzenet" - valamilyen üzenettel commitolja (betölti) az index tartalmát a lokális repositoryba
-* git log --oneline --graph --decorate - szépen gráfosan kirajzolja a commitokat
+## Git Bash segï¿½tsï¿½g:
+* git init <directory> - lï¿½trehoz egy mappï¿½t, ahol dolgozhattok
+* cd <directory> - ï¿½tvï¿½lthatsz erre a mappï¿½ra
+* git clone <url> - a projekt leklï¿½nozï¿½sa sajï¿½t magatoknak, ezt kezditek el mï¿½dosï¿½tani, ï¿½s majd toljï¿½tok fel a mï¿½dosï¿½tï¿½sokat
+* ls -l - kilitsï¿½zza a mappa tartalmï¿½t, amiben vagy
+* git config --global user.name "Gipsz Jakab" - username beï¿½llï¿½tï¿½sa
+* git add <filenï¿½v> - ï¿½j fï¿½jlt ad hozzï¿½ a commitolandï¿½ fï¿½jlok kï¿½zï¿½ (homokozï¿½ a neve, angolul index)
+* git status - meg tudod nï¿½zni a hozzï¿½adott fï¿½jlokat
+* git commit -a - szï¿½vegfï¿½jlban megmutatja a commitolandï¿½ fï¿½jlokat
+* git commit -m "ï¿½zenet" - valamilyen ï¿½zenettel commitolja (betï¿½lti) az index tartalmï¿½t a lokï¿½lis repositoryba
+* git log --oneline --graph --decorate - szï¿½pen grï¿½fosan kirajzolja a commitokat
 
-## Az online repository beállítása:
-* git clone <url> - EZZEL ÉRDEMES KEZDENI
-* git remote add origin <url, ami a projekt url-je, ahova pull requestet szeretnél> 
-* git remote -v - a remoteok státusza
+## Az online repository beï¿½llï¿½tï¿½sa:
+* git clone <url> - EZZEL ï¿½RDEMES KEZDENI
+* git remote add origin <url, ami a projekt url-je, ahova pull requestet szeretnï¿½l> 
+* git remote -v - a remoteok stï¿½tusza
 
-## Feltöltés az online repositoryba:
-* git pull origin master - a mások által végrehajtott változtatások letöltése
-* git push origin master - a mi változtatásaink életbe léptetésének kérelme
+## Feltï¿½ltï¿½s az online repositoryba:
+* git pull origin master - a mï¿½sok ï¿½ltal vï¿½grehajtott vï¿½ltoztatï¿½sok letï¿½ltï¿½se
+* git push origin master - a mi vï¿½ltoztatï¿½saink ï¿½letbe lï¿½ptetï¿½sï¿½nek kï¿½relme
+
+
+
